@@ -85,7 +85,7 @@ a:hover{color:#FFD873}
   </header>
 
   <section id="inicio" style="position:relative;min-height:clamp(600px,92vh,880px);display:flex;align-items:flex-end;overflow:hidden">
-    <img src="img/hd-hero.jpg" alt="Aficionado de FAN TOTAL celebrando con los brazos en alto frente a un estadio de fútbol americano iluminado de noche" fetchpriority="high" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 30%">
+    <img src="img/hero-estadio.jpg" alt="Aficionado de FAN TOTAL con los puños en alto en la tribuna de un estadio de fútbol americano lleno, al atardecer" fetchpriority="high" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:72% 40%">
     <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,25,56,.85) 0%,rgba(3,25,56,.35) 55%,rgba(3,25,56,0) 100%)"></div>
     <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,25,56,0) 35%,rgba(3,25,56,.7) 75%,#031938 100%)"></div>
     <div style="position:relative;width:100%;max-width:1200px;margin:0 auto;padding:0 clamp(22px,4vw,40px) clamp(40px,8vh,90px);box-sizing:border-box">
@@ -249,12 +249,12 @@ const PHONE = '525516805237';
 const wa = t => 'https://wa.me/' + PHONE + '?text=' + encodeURIComponent(t);
 const I = n => 'img/ic-' + n + '.svg';
 const EVENTS = [
+  { img:'img/hd-cdmx.jpg', alt:'Interior de un estadio lleno e iluminado en Ciudad de México — San Francisco vs Minnesota, 22 de noviembre de 2026', date:'22 NOV 2026', city:'CIUDAD DE MÉXICO', match:'San Francisco vs Minnesota',
+    feats:[['pin','Ciudad de México'],['ticket','Boletos para el partido'],['people','Atención 24/7']] },
   { img:'img/hd-dallas.jpg', alt:'Estadio de fútbol americano en Dallas, Texas, al atardecer — Philadelphia vs Dallas, 26 de noviembre de 2026', date:'26 NOV 2026', city:'DALLAS', match:'Philadelphia vs Dallas',
     feats:[['pin','Dallas, Texas'],['ticket','Boletos para el partido'],['plane','Viaje redondo'],['building','Hospedaje'],['bus','Traslados'],['people','Atención 24/7']] },
   { img:'img/hd-la.jpg', alt:'Estadio moderno rodeado de palmeras en Los Ángeles, California — San Francisco vs LA Chargers, 17 de diciembre de 2026', date:'17 DIC 2026', city:'LOS ÁNGELES', match:'San Francisco vs LA Chargers',
     feats:[['pin','Los Ángeles, California'],['ticket','Boletos para el partido'],['plane','Viaje redondo'],['building','Hospedaje'],['bus','Traslados'],['people','Atención 24/7']] },
-  { img:'img/hd-cdmx.jpg', alt:'Interior de un estadio lleno e iluminado en Ciudad de México — San Francisco vs Minnesota, 22 de noviembre de 2026', date:'22 NOV 2026', city:'CIUDAD DE MÉXICO', match:'San Francisco vs Minnesota',
-    feats:[['pin','Ciudad de México'],['ticket','Boletos para el partido'],['people','Atención 24/7']] },
   { img:'img/hd-sb.jpg', alt:'Trofeo de campeonato frente al estadio iluminado en Los Ángeles — experiencia Super Bowl LXI', date:'', city:'SUPER BOWL LXI', match:'',
     feats:[['pin','SoFi Stadium, Los Ángeles'],['ticket','Boletos para el partido'],['plane','Viaje redondo'],['building','Hospedaje'],['bus','Traslados'],['people','Atención 24/7']] },
 ];
